@@ -1,0 +1,74 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 100px;
+}
+
+.wrapper {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+    height: 256px;
+    border: 5px solid rgb(85, 85, 85);
+    font-size: xx-large;
+    font-weight: 900;
+    border-radius: 50px;
+}
+
+img {
+    display: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 256px;
+    width: 256px;
+}
+
+.button1:hover {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.button1:hover ~ .image1 {
+    display: block;
+}
+
+.button2:active {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.button2:active ~ .image2 {
+    display: block;
+}
+
+video {
+    display: none;
+    height: 256px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.button3:hover {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.button3:hover ~ .video1 {
+    display: block;
+}
+
+.button4:active {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.button4:active ~ .video2 {
+    display: block;
+}
